@@ -1,8 +1,9 @@
-# dashboard.py
+# app.py
+
 import streamlit as st
 from utils import create_pdf_report
 
-# Import your calculators
+# Import the calculators for risk assessment
 from app.calculators.ascvd import ascvd
 from app.calculators.bp_category import bp_category
 from app.calculators.cha2ds2vasc import cha2ds2vasc
